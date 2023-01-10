@@ -5,10 +5,10 @@
     text-decoration: none;
 }
 
-.body-section {
+body {
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
-        background-color: #FFFFFF;
+        background-color: var(--white-color)
 
 }
 :root{ 
@@ -57,8 +57,8 @@
 }
 
 /*Hero section*/
-.hero-section{
-        background-color:#2E2F42;;
+.section-hero{
+        background-color:var(--title-color)
 }
 .hero-title{
  
@@ -75,13 +75,13 @@
         letter-spacing: 0.04em;
         color: var(--white-color);
         display: flex;
-        background: #4D5AE5;
+        background: var(--contrast-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 }
 .modal-button:hover,
 .modal-button:focus{
-        background: #404BBF;
+        background: var(--contrast-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 }
@@ -94,7 +94,7 @@
         letter-spacing: 0.02em;
         color: var(--title-color);
 }
-.subtitle-section{
+.section-subtitle{
 
         font-weight: 500;
         font-size: 20px;
@@ -102,16 +102,20 @@
         letter-spacing: 0.02em;
        color: var(--title-color);
 }
-.text-section{
+.section-text{
 
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--text-color);
 }
 /*Footer section*/
-.footer-section{
-        background: #2E2F42;;
+.section-footer{
+        background: var(--title-color)
 }
+.section-footer .logo{
+        color: var(--white-color);
+}
+
 .footer-text{
 
         line-height: 1.5;
@@ -136,5 +140,8 @@
     letter-spacing: 0.04em;
     color: var(--white-color);
     background: #404BBF;
+}
+.filter-btn{
+        cursor: pointer;
 }
         
